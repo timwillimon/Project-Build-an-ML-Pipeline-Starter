@@ -81,7 +81,7 @@ max_depth: 50
 The selected model artifact is:
 
 ```text
-random_forest_export:prod
+model_export:prod
 ```
 
 ## Production Model Test
@@ -151,7 +151,7 @@ The pipeline creates and tracks the following primary W&B artifacts:
 - `clean_sample.csv`
 - `trainval_data.csv`
 - `test_data.csv`
-- `random_forest_export`
+- `model_export`
 
 The cleaned reference dataset uses the `reference` alias. The reviewed production model uses the `prod` alias.
 
