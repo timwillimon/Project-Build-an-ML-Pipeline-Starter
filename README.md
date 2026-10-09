@@ -163,4 +163,4 @@ Initial completed pipeline for `sample1.csv`, including data preparation, valida
 
 ### Version 1.0.1
 
-Reserved for the geographic-boundary correction and successful processing of `sample2.csv`.
+Adds a geographic boundary filter that removes property records outside the expected New York City coordinate range. This release contains the correction needed to validate and process the second weekly data sample.
